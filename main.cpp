@@ -1,10 +1,10 @@
-#include "helloApp.h"
+#include "ComputeApp.h"
 
 const uint32_t WIDTH = 800;
 const uint32_t HEIGHT = 600;
 
 int main() {
-    HelloTriangleApplication app;
+    ComputeApp app;
 
     try {
         app.run(WIDTH, HEIGHT);
